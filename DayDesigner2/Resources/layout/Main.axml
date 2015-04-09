@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/calendarView1"
+        android:drawingCacheQuality="auto"
+        android:overScrollMode="ifContentScrolls"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:alwaysDrawnWithCache="true"
+        android:minDate="1/1/2000"
+        android:maxDate="12/31/2099" />
+</LinearLayout>
